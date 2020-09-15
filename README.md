@@ -53,7 +53,7 @@ The application leaverages `node.js` and standard ES6 `JavaScript`, noSQL data s
 
 The below provides a demo of the Workout Buddy application.
 
-[![OVERVIEW: WORKOUT BUDDY APP IN ACTION](https://chartroomcreative.com/gitassets/workout-buddy-app.gif)](https://chartroomcreative.com/gitassets/workout-buddy-app.mp4)
+[![OVERVIEW: WORKOUT BUDDY APP IN ACTION](./workout-buddy-app.gif)](https://chartroomcreative.com/gitassets/workout-buddy-app.mp4)
 
 ## License
 
