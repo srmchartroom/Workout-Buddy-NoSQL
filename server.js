@@ -20,11 +20,13 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// routes (which references the models)
+// Require routes
 app.use(require("./routes/api-routes.js")); // api-routes must precede the html-routes to populate the Last Workout....
 app.use(require("./routes/html-routes.js"));
 // app.use(require("./models/index.js"));
 
+//? Note useNewUrlParse is deprecated and will be discontinued eventually. 
+//? Use "useUnifiedTopology: true" to ensure deprecation does not destablize/break the application
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
