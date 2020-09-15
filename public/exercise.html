@@ -7,17 +7,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
   <link rel="stylesheet" href="style.css" />
-  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <title>Workout Buddy Fitness Tracker</title>
 </head>
 
 <body>
   <nav>
-    <a href="/">Fitness Tracker</a>
-    <a href="/stats">Dashboard</a>
+    <a href="/"><i class="fas fa-running"></i> Home</a> |
+    <a href="/stats"><i class="fas fa-heartbeat"></i> Dashboard</a>
   </nav>
   <div class="wrapper">
     <header>
-      <h1>Fitness Tracker</h1>
+      <h1 style="color: #000; line-height: 1; margin-bottom: 0; font-size: 2.5rem;"><i class="fas fa-running"></i>
+        Workout Buddy</h1>
+      <h6 style="color: #000; line-height: 1; margin-top: 0;">Fitness Tracker</h6>
     </header>
     <div class="ui container exercise">
       <div class="ui raised card m-auto">
@@ -69,10 +73,10 @@
           </div>
           <div class="buttons">
             <button disabled class="huge ui blue button complete">
-              Complete
+              <i class="fas fa-check-circle"></i> &nbsp;&nbsp;Complete
             </button>
             <button disabled class="huge ui positive button add-another">
-              Add Exercise
+              <i class="fas fa-plus-circle"></i> &nbsp;&nbsp;Add Exercise
             </button>
           </div>
         </form>

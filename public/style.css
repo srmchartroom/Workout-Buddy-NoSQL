@@ -10,6 +10,9 @@ html,
 body,
 .wrapper {
   height: 100%;
+  /* background: rgb(87,147,253); */
+  
+  background: linear-gradient(180deg, rgba(87,147,253,1) 0%, rgba(87,147,253,1) 10%, rgba(255,255,255,1) 100%);
 }
 
 body {
@@ -23,6 +26,11 @@ nav {
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
+}
+
+footer {
+  background: #fff;
+  min-height: 50px;
 }
 
 a,
@@ -368,10 +376,6 @@ form > button {
   margin-bottom: 5px;
 }
 
-/* .workout .card {
-  width: 350px;
-} */
-
 .prev-workout button {
   margin: 10px;
 }
@@ -401,6 +405,7 @@ form > button {
 .buttons .ui.button {
   margin: 0;
   width: 50%;
+  padding: 25px;
 }
 
 .ui.card h2 {
@@ -434,4 +439,8 @@ form > button {
     opacity: 0;
     right: -320px;
   }
+}
+
+#canvas, #canvas2, #canvas3, #canvas4 {
+  background-color: #fff;
 }
