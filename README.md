@@ -47,7 +47,8 @@ The application leaverages `node.js` and standard ES6 `JavaScript`, noSQL data s
 6. The database should be created and titled "workouts". You can easily seed the database from the command line using the command `node seeders/seed.js`.
 7. Spin up and start the application from the command line by typing `node app.js`.
 
-### You can see a live/deployed version of this application at https://project-mcginnis.herokuapp.com/
+### You can see a live/deployed version of this application at https://gentle-temple-81109.herokuapp.com/
+
 
 ## Usage
 
